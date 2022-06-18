@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.section-content {
+    background-color: white;
+    height: 100px;
+    max-width: var(--hancho);
+    margin: auto;
+}
+
+:root {
+    --color-bordes: #ececec;
+    --color-primario: #c3621e;
+    --hancho: 1100px;
+    --ofertas: 180px;
+}
+
+body {
+    background-color: #ececec;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input {
+    border: none;
+    background-color: var(--color-bordes);
+    border-radius: 5px;
+    padding: 0px 10px;
+    border-color: var(--color-primario) !important;
+    outline: none;
+}
+
+
+
+.mas,
+.menos {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color-primario);
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    transition: 0.1s all ease-in-out;
+}
+
+.mas:hover,
+.menos:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 7px 1px rgb(0 0 0 / 25%);
+
+}
+
+.finalizar {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color-primario);
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    transition: 0.1s all ease-in-out;
+    width: 100%;
+}
+
+.finalizar:hover {
+    padding: 17px 22px;
+    font-size: 20px;
+}
+
+.toggle {
+    display: none;
+}
+
+#preloader{
+    position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: #c3621e;
+     z-index: 10000000000;
+     height: 100vh;
+     width: 100%;
+ }
+ 
+ #loader{
+     width: 600px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin: -50px 0 0 -50px;
+     background-color: none;
+ }
+
+ #loader img{
+     height: 100%;
+ }
+ 
+
+@media (max-width:992px) {
+    .toggle {
+        display: block;
+        border: none;
+        background: none;
+        margin-right: 20px;
+        font-size: 40px;
+    }
+}

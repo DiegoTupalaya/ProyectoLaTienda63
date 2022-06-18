@@ -1,0 +1,456 @@
+.compras-container {
+    width: var(--hancho);
+    background-color: #fff;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.compras-formulario {
+    width: 60%;
+    padding: 0px 70px;
+}
+
+.compras-formulario p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 55%);
+}
+
+#Compras {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#totales {
+    width: 100%;
+    text-align: end;
+    padding: 0px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 55%);
+
+}
+
+#totales p {
+    border-bottom: 1px solid var(--color-bordes);
+
+}
+
+.producto-carrito-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.productos-carrito-container {
+    width: 60%;
+}
+
+.totales-carrito-container {
+    width: 40%;
+    height: 650px;
+    max-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 70px;
+}
+
+.totales-subtotal {
+    display: flex;
+    justify-content: end;
+    color: rgba(0, 0, 0, 55%);
+    border-bottom: 1px solid var(--color-bordes);
+
+    align-items: center;
+}
+
+.totales-envio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.totales-total {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totales-total p {
+    text-align: end;
+    border-bottom: 1px solid var(--color-bordes);
+    color: rgba(0, 0, 0, 55%);
+}
+
+.subtotal {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.envio {
+    display: flex;
+    justify-content: end;
+}
+
+.total {
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    border: none;
+}
+
+.total p {
+    border: none;
+    color: black;
+}
+
+.metodos-de-pago {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.metodos-de-pago p {
+    text-align: end;
+    border-bottom: 1px solid var(--color-bordes);
+    color: rgba(0, 0, 0, 55%);
+}
+
+.metodos-de-pago-container {
+    height: 100%;
+}
+
+.finalizar-compra {
+    height: 100%;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.metodo-de-envio {
+    display: flex;
+    flex-direction: column;
+}
+
+.metodo-de-envio p {
+    margin-bottom: 10px;
+    text-align: end;
+    color: rgba(0, 0, 0, 55%);
+    border-bottom: 1px solid var(--color-bordes);
+}
+
+#titulos {
+    display: flex;
+    margin: auto;
+    width: var(--hancho);
+    background-color: #fff;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 55%);
+}
+
+.form-subtitulo {
+    border-bottom: 1px solid var(--color-bordes);
+    width: 100%;
+    color: rgba(0, 0, 0, 55%);
+    margin: 20px 00px;
+}
+
+#compras {
+    width: 60%;
+    text-align: start;
+    padding: 0px 70px;
+}
+
+.titulo-compras-productos {
+    width: 100%;
+    border-bottom: 1px solid var(--color-bordes);
+
+}
+
+#titulo-compras {
+    background-color: #fff;
+    color: var(--color-primario);
+    font-size: 50px;
+    width: var(--hancho);
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+    border-bottom: 1px solid var(--color-bordes);
+}
+
+.form-nombre,
+.form-contacto,
+.form-ubicacion,
+.form-adicional {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-nombre input,
+.form-contacto input,
+.form-ubicacion input,
+.form-adicional input {
+    width: 100%;
+    height: 30px;
+}
+
+.form-adicional textarea {
+    max-width: 100% !important;
+    min-width: 100%;
+    min-height: 80px;
+    max-height: 150px;
+    height: 100px;
+    border: none;
+    background-color: var(--color-bordes);
+    border-radius: 5px;
+    padding: 0px 10px;
+    border-color: var(--color-primario) !important;
+    outline: none;
+}
+
+.form-adicional div {
+    width: 100%;
+}
+
+.envio-texto {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.input-compras {
+    width: 100%;
+}
+
+#titulo-factura {
+    background-color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+    color: var(--color-primario);
+    font-size: 50px;
+    width: var(--hancho);
+    height: 150px;
+    margin: auto auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-bordes);
+}
+
+@media (max-width:1100px) {
+    #titulo-factura {
+        width: 100%;
+    }
+
+    .compras-container {
+        width: 100%;
+    }
+
+    #titulo-compras {
+        width: 100%;
+    }
+
+    .factura-container {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width:992px) {
+    #titulo-compras , #titulo-factura{
+        margin-top: 150px !important;
+    }
+
+    .factura-container {
+        width: 100% !important;
+    }
+
+    .totales-carrito-container {
+        width: 40%;
+        padding: 0px 30px;
+    }
+
+    .compras-formulario {
+        width: 60%;
+        padding: 0px 30px;
+    }
+
+}
+
+@media (max-width:720px) {
+    #titulo-compras {
+        margin-top: 150px !important;
+        text-align: center;
+    }
+
+    .gracias-factura-container {
+        width: 90% !important;
+        margin: 0px auto
+    }
+
+    .interbank-container {
+        width: 90% !important;
+        margin: 50px auto 50px auto !important;
+
+    }
+
+    .gracias-factura {
+        margin: 50px auto 0px auto !important;
+    }
+
+    .factura-container {
+        width: 100% !important;
+        flex-direction: column-reverse;
+        height: 100% !important;
+    }
+
+    .totales-carrito-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 60px !important;
+        padding: 0px 0px !important;
+    }
+
+    .compras-formulario {
+        width: 90%;
+        margin: auto;
+        padding: 0px 0px !important;
+    }
+
+    #totales {
+        text-align: start;
+    }
+
+    .totales-subtotal {
+        justify-content: start;
+    }
+
+    .subtotal {
+        justify-content: start;
+    }
+
+    .metodo-de-envio p {
+        margin-bottom: 10px;
+        text-align: start;
+    }
+
+    .metodos-de-pago p {
+        text-align: start;
+    }
+
+    .totales-total p {
+        text-align: start;
+    }
+
+    .total {
+        justify-content: start;
+    }
+
+    .compras-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .envio {
+        justify-content: start !important;
+    }
+
+}
+
+
+.factura-container {
+    height: 100%;
+    background-color: #fff;
+    width: var(--hancho);
+    margin: auto;
+}
+
+.qr {
+    width: 200px;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.qr-container {
+    margin: 20px 0px;
+}
+
+.interbank-container {
+    width: 60%;
+    padding: 30px;
+}
+
+.factura-t {
+    font-size: 35px;
+    color: #555;
+}
+
+.factura-titular {
+    font-size: 30px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.factura-cuenta {
+    font-size: 20px;
+    padding-left: 40px;
+    color: #555;
+}
+
+.detalles-factura {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-bordes);
+    margin-bottom: 10px;
+    color: #555;
+    margin-left: 20px;
+}
+
+.factura-bancarios-container {
+    margin-bottom: 30px;
+}
+
+.factura-detalles-t {
+    margin-bottom: 30px;
+}
+
+.detalles-factura-titulos {
+    font-size: 22px;
+}
+
+.factura-container {
+    display: flex;
+}
+
+.gracias-factura {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .02);
+    height: auto;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+}
+
+.gracias-factura-container {
+    width: 40%;
+
+}
+
+.gracias-factura-p {
+    color: var(--color-primario) !important;
+}
+
+.gracias-factura p {
+    color: #555;
+}
